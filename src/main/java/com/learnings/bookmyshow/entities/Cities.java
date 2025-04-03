@@ -16,6 +16,9 @@ import java.util.List;
 public class Cities extends Auditable{
 
     private String name;
+
+
+    
     @OneToMany
     private List<Theatre> theatre = new ArrayList<>();
 }
