@@ -13,4 +13,6 @@ public class BookingDTO {
     private Long customerId;
     private Long showId;
     private List<Long> showSeatIds;
+
+    
 }
