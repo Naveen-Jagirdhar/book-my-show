@@ -3,10 +3,10 @@ name: Java CI with Gradle
 on:
   push:
     branches:
-      - main  # Trigger on push to main branch (you can customize this)
+      - master  # Trigger on push to main branch (you can customize this)
   pull_request:
     branches:
-      - main  # Trigger on pull request to main branch (you can customize this)
+      - master  # Trigger on pull request to main branch (you can customize this)
 
 jobs:
   build:
