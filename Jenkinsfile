@@ -8,6 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
+                deleteDir()
                 checkout scm
             }
         }
