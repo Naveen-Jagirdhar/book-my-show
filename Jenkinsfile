@@ -2,13 +2,12 @@ pipeline {
     agent any
 
     tools {
-        gradle 'gradle' // optional if not using wrapper
+        gradle 'gradle'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
-                deleteDir()
                 checkout scm
             }
         }
